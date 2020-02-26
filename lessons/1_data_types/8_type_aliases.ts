@@ -4,10 +4,10 @@
 // You create an alias using the reserved word 'type'.
 // type NameYouWant = the_types;
 type CardinalDirection = 'North' | 'East' | 'South' | 'West';
-function move(direction: CardinalDirection): string {
+function walk(direction: CardinalDirection): string {
     return `You have walked <strong>${direction}</strong>.`
 }
-console.log(move('East'))
+console.log(walk('East'))
 
 type User = {
     name: String;
