@@ -66,3 +66,9 @@ console.log(buildName('Iago'))
 // an undefined value when calling the function.
 // function buildName(firstName = 'Iago', lastName: string) { ... }
 // buildName(undefined, 'Rodrigues')
+
+// Rest parameters
+let log: (...args: (string | number)[]) => void;
+log = (...args) => console.log(args.join(' '));
+
+log('Using', 'rest', 'operators', 'with', 'typescript', 3.75);

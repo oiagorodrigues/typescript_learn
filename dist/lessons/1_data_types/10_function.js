@@ -24,3 +24,6 @@ console.log(buildName('Iago', 'Rodrigues'));
 console.log(buildName('Sidiane', 'Rocha', undefined));
 console.log(buildName('Sidiane', 'Rocha', 'Awesomebutt'));
 console.log(buildName('Iago'));
+let log;
+log = (...args) => console.log(args.join(' '));
+log('Using', 'rest', 'operators', 'with', 'typescript', 3.75);
