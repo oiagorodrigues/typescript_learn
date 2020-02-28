@@ -1,12 +1,12 @@
 "use strict";
-const person = {
+var person = {
     firstname: 'Iago',
     lastname: 'Rodrigues',
-    fullname() {
-        return `${this.firstname} ${this.lastname}`;
+    fullname: function () {
+        return this.firstname + " " + this.lastname;
     }
 };
-let job;
+var job;
 job = {
     title: 'Developer',
     hourValue: 15

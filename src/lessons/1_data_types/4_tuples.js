@@ -1,3 +1,3 @@
 "use strict";
-let role;
+var role;
 role = [2, 'author'];

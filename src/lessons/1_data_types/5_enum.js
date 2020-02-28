@@ -5,11 +5,11 @@ var Role;
     Role["USER"] = "USER";
 })(Role || (Role = {}));
 ;
-let sentence;
-let userRole = Role.ADMIN;
+var sentence;
+var userRole = Role.ADMIN;
 if (userRole === 'ADMIN') {
-    sentence = `I'm the <strong>ADMIN</strong>!`;
+    sentence = "I'm the <strong>ADMIN</strong>!";
 }
 else {
-    sentence = `I'm the <strong>USER</strong>.`;
+    sentence = "I'm the <strong>USER</strong>.";
 }
